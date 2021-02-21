@@ -33,7 +33,28 @@ body {
     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
     width:100%;
     font-family: Arial;
+    background: url("../img/background.png");
 }
+.btn-link {
+    color:#1c9dea;
+    text-decoration: none;
+}
+label {
+    color:#595959;
+    font-size:15px;
+}
+.btn {
+    height: 55px;
+}
+.btn-primary {
+    background: #1c9dea;
+    border-color: #1c9dea;
+    color:#fff;
+}
+.form-control {
+    height: 55px;
+}
+
 .js-chatbox-chronology {
     overflow-y: scroll;
     max-height: calc(100vh - 100px);
