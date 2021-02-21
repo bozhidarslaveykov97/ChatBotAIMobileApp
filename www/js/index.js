@@ -30,9 +30,16 @@ function onDeviceReady() {
 
 
 $(document).ready(function() {
+
     $(".chatbox-input-text").focus(function() {
        $(this).addClass('chatbox-input-text-large');
        $('.chatbox-input-emoticons').hide();
        $('.chatbox-input-upload').hide();
+    });
+
+    $(".chatbox-input-text").focusout(function() {
+       $(this).removeClass('chatbox-input-text-large');
+       $('.chatbox-input-emoticons').fadeIn();
+       $('.chatbox-input-upload').fadeIn();
     });
 });
