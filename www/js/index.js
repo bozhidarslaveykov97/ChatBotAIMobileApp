@@ -52,6 +52,15 @@ $(document).keypress(function(e) {
 
 $(document).ready(function() {
 
+    $('a').click(function (e) {
+        e.preventDefault();
+        $('body').fadeOut();
+        link = $(this).attr('href');
+        setTimeout(function () {
+            window.location.href = link;
+        }, 600);
+    });
+
     $('.js-chat-send').click(function () {
        sendMessage();
     });
