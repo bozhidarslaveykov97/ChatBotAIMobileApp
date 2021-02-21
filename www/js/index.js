@@ -52,6 +52,10 @@ $(document).keypress(function(e) {
 
 $(document).ready(function() {
 
+    $('.js-chat-send').click(function () {
+       sendMessage();
+    });
+
     $(".chatbox-input-text").focus(function() {
        $(this).addClass('chatbox-input-text-large');
        $('.chatbox-input-emoticons').hide();
