@@ -49,6 +49,7 @@ body {
     border-color: #fff;
     float:left;
     margin-left:15px;
+    height: 50px;
 }
 .chatbox-input-text-large {
     width: calc(100% - 100px);
@@ -56,13 +57,34 @@ body {
 .chatbox-input-send {
     margin-left:15px;
     float:right;
+    background-color: #1c9dea !important;
+    border-color: #1c9dea !important;
+    color:#fff;
+    border-radius: 100%;
+    font-size: 22px;
+    width:50px;
+    height:50px;
 }
 .chatbox-input-upload {
     float:left;
     margin-left:15px;
+    border-color: rgba(28,157,234,0.15) !important;
+    background-color: rgba(28,157,234,0.15) !important;
+    color: #1c9dea !important;
+    border-radius: 100%;
+    font-size: 22px;
+    width:50px;
+    height:50px;
 }
 .chatbox-input-emoticons {
     float: left;
+    border-color: rgba(28,157,234,0.15) !important;
+    background-color: rgba(28,157,234,0.15) !important;
+    color: #1c9dea !important;
+    border-radius: 100%;
+    font-size: 22px;
+    width:50px;
+    height:50px;
 }
 .chatbox-replies {
     width: 100%;
