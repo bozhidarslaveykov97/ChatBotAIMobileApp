@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cloudvisionltd.vanesaai" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>VanesaAI</name>
+<widget id="io.cordova.vanesa.ai" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Vanesa AI</name>
     <description>
         Vanesa AI - Chatbot and personal assistant.
     </description>
