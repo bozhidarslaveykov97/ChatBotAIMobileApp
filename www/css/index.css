@@ -59,5 +59,14 @@ body {
     margin-left:15px;
 }
 .chatbox-input-emoticons {
-    float:left;
+    float: left;
+}
+.chatbox-replies {
+    margin-top:15px;
+}
+.chatbox-replies-message {
+    background: #e5edf5;
+    padding:15px;
+    font-weight: bold;
+    border-radius: 6px;
 }

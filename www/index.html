@@ -42,14 +42,25 @@
 <body>
 <div class="container-fluid">
     <div class="row">
+
+        <div class="col-md-12 js-chatbox-chronology">
+
+            <div class="chatbox-replies">
+                <div class="chatbox-replies-message">
+                Здравей, как си?
+                </div>
+            </div>
+
+        </div>
+
         <div class="col-md-12 chatbox-input pt-4 pb-4">
 
             <button class="btn btn-primary chatbox-input-emoticons">Emoticons</button>
             <button class="btn btn-primary chatbox-input-upload">Upload</button>
 
-            <input type="text" class="form-control chatbox-input-text" placeholder="Започни да пишеш..." />
+            <input type="text" class="form-control chatbox-input-text js-chat-input" placeholder="Започни да пишеш..." />
 
-            <button class="btn btn-primary chatbox-input-send">Send</button>
+            <button class="btn btn-primary chatbox-input-send js-chat-send">Send</button>
 
         </div>
     </div>
