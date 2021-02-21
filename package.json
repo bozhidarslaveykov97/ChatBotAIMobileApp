@@ -1,7 +1,7 @@
 {
   "name": "io.cordova.vanesa.ai",
   "displayName": "VanesaAI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vanesa AI - Chatbot and personal assistant.",
   "main": "index.js",
   "scripts": {
