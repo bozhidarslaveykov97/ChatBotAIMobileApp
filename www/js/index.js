@@ -28,6 +28,27 @@ function onDeviceReady() {
     document.getElementById('deviceready').classList.add('ready');
 }
 
+function sendMessage() {
+    var message = $('.js-chat-input').val();
+    var template = '<div class="chatbox-replies">\n' +
+        '                <div class="chatbox-replies-name">\n' +
+        '                    Божидар <small class="chatbox-replies-time">19:25PM</small>\n' +
+        '                </div>\n' +
+        '                <div class="chatbox-replies-message">\n' + message + '</div>\n' +
+        '            </div>';
+    $('.js-chatbox-chronology').append(template);
+
+    $(".js-chatbox-chronology").scrollTop($(".js-chatbox-chronology")[0].scrollHeight);
+
+    $('.js-chat-input').val('');
+}
+
+
+$(document).keypress(function(e) {
+    if (e.which == 13) {
+        sendMessage();
+    }
+});
 
 $(document).ready(function() {
 
