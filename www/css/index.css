@@ -45,7 +45,7 @@ body {
     background: #fff;
 }
 .chatbox-input-text {
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     border-color: #fff;
     float:left;
     margin-left:15px;
@@ -86,6 +86,8 @@ body {
     width:50px;
     height:50px;
 }
+/*
+REPLIES*/
 .chatbox-replies {
     width: 100%;
     padding-top:35px;
@@ -106,8 +108,8 @@ body {
 .chatbox-replies-message {
     display: inline;
     float:right;
-    background-color: #e5edf5;
-    color: #223645;
+    background-color: #1c9dea;
+    color: #fff;
     padding-left:32px;
     padding-right:22px;
     padding-top:12px;
@@ -116,3 +118,40 @@ body {
     font-weight: bold;
     border-radius:200px;
 }
+
+/*
+REPLIES*/
+.chatbox-sent {
+    width: 100%;
+    padding-top:35px;
+    padding-bottom:35px;
+    clear: both;
+}
+.chatbox-sent-name {
+    font-weight: bold;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.chatbox-sent-time {
+    color: #647589;
+    padding-left: 15px;
+}
+.chatbox-sent-message {
+    display: inline;
+    float:left;
+    background-color: #e5edf5;
+    color: #223645;
+    padding-left:20px;
+    padding-right:32px;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size:13px;
+    font-weight: bold;
+    border-radius:200px;
+}
+
+
+
+
