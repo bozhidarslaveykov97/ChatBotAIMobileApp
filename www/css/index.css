@@ -45,7 +45,10 @@ body {
     width: calc(100% - 300px);
     border-color: #fff;
     float:left;
-    margin-left:15px; 
+    margin-left:15px;
+}
+.chatbox-input-text-large {
+    width: calc(100% - 100px);
 }
 .chatbox-input-send {
     margin-left:15px;

@@ -27,3 +27,12 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 }
+
+
+$(document).ready(function() {
+    $(".chatbox-input-text").focus(function() {
+       $(this).addClass('chatbox-input-text-large');
+       $('.chatbox-input-emoticons').hide();
+       $('.chatbox-input-upload').hide();
+    });
+});
