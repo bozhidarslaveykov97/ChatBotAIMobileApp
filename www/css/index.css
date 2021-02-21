@@ -43,14 +43,17 @@ body {
 }
 .chatbox-input-text {
     width: calc(100% - 300px);
-    border-color: #000;
+    border-color: #fff;
     float:left;
+    margin-left:15px;
 }
 .chatbox-input-send {
-    float:left;
+    margin-left:15px;
+    float:right;
 }
 .chatbox-input-upload {
     float:left;
+    margin-left:15px;
 }
 .chatbox-input-emoticons {
     float:left;
