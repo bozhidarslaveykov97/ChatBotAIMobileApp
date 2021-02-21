@@ -54,11 +54,11 @@ $(document).ready(function() {
 
     $('a').click(function (e) {
         e.preventDefault();
-        $('body').fadeOut();
+        $('body').fadeOut(300);
         link = $(this).attr('href');
         setTimeout(function () {
             window.location.href = link;
-        }, 600);
+        }, 300);
     });
 
     $('.js-chat-send').click(function () {
